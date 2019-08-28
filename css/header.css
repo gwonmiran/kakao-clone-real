@@ -1,0 +1,36 @@
+.top-header{
+  background-color: #523737;
+  color:white;
+  padding: 5px 10px 15px 10px;
+}
+
+.top-header .header_top,
+.top-header .header_bottom{
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .header_top{
+  margin-bo: 15px;
+}
+
+.top-header .header_bottom{
+  margin: 0px 10px;
+}
+
+.top-header .header_column{
+  width: 33%;
+}
+
+.top-header .header_column:last-child{
+  text-align: right;
+}
+라스트차일드는 탑해더에서 모든 칼럼중 마지막 칼럼에 해당
+
+.top-header .header_column:nth-child(2){
+  text-align:center;
+}
+
+.top-header .header_number{
+  color: yellow;
+}
